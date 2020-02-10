@@ -1,3 +1,90 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
 
+.parrafo {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.parrafo2 {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.subtitulo1 {
+  font-size: 42px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitulo2 {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.alineacionizq {
+  align-content: flex-start;
+}
+
+.espacios {
+  margin-top: 30px;
+  margin-left: -90PX;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.alineacion {
+  display: inline-block;
+}
+
+.colorfooter {
+  background-color: #221d23;
+  height: 130px;
+}
+
+.imagen1 {
+  margin-top: -310px;
+  margin-left: -45px;
+}
+
+.btn-primary {
+  background-color: #2ab7ca;
+  border-radius: 0;
+  border: 0;
+  width: 100px;
+  height: 35px;
+}
+
+.flex-container {
+  margin-left: 20px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-left: 25px;
+}
+
+.flex-container div {
+  width: 400px;
+  margin-left: 30px;
+  line-height: 40px;
+  text-align: left;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */

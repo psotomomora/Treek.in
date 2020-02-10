@@ -1,0 +1,38 @@
+* {
+font-family: $tipo1;
+font-family: $tipo2;
+}
+
+.parrafo {
+  font-size: 15px;
+  font-family: $tipo2;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.parrafo2 {
+  font-size: 15px;
+  font-family: $tipo2;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: $tipo1;
+  font-weight: 700;
+}
+.subtitulo1 {
+  font-size: 42px;
+  font-family: $tipo1;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitulo2 {
+  font-size: 30px;
+  font-family: $tipo1;
+  font-weight: 700;
+  text-align: center;
+}
+.alineacionizq {
+  align-content: flex-start;
+}

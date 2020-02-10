@@ -1,0 +1,30 @@
+.imagen1 {
+  margin-top: -310px;
+  margin-left: -45px;
+}
+.btn-primary {
+  background-color: #2ab7ca;
+  border-radius: 0;
+  border: 0;
+  width: 100px;
+  height: 35px;
+}
+
+.flex-container {
+  margin-left: 20px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-left: 25px;
+}
+
+.flex-container div {
+  width: 400px;
+  margin-left: 30px;
+  line-height: 40px;
+  text-align: left;
+  align-items: center;
+}
