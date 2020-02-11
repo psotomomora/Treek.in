@@ -28,13 +28,23 @@
   flex-direction: row;
   align-content: center;
   justify-content: center;
+
 }
 
 
 .flex-container-hijo h4, .flex-container-hijo p {
   margin: auto;
   padding: auto;
+  margin-left: 20px;
 }
+
+h4 {
+  font-size: 25px;
+  font-family: $tipo1;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
 
 .flex-container-hijo {
   width: 350px;
@@ -72,5 +82,12 @@ h3 {
 }
 
 .subir {
-  margin-top: -750px;
+  margin-top: -850px;
+}
+.margenpre {
+  margin-left: 600px;
+}
+
+.col {
+  font-size: 14px;
 }
