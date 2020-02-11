@@ -15,11 +15,6 @@ font-family: $tipo2;
   font-family: $tipo2;
 }
 
-h1 {
-  font-size: 45px;
-  font-family: $tipo1;
-  font-weight: 700;
-}
 .subtitulo1 {
   font-size: 42px;
   font-family: $tipo1;
@@ -36,3 +31,32 @@ h1 {
 .alineacionizq {
   align-content: flex-start;
 }
+
+.card-title {
+  font-family: $tipo1;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.card-text {
+  font-size: 50px;
+  font-family: $tipo1;
+  font-weight: 700;
+}
+
+.card-text2 {
+  font-size: 17px;
+  font-family: $tipo1;
+  font-weight: 400;
+}
+
+.alineacionprecios {
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-family: $tipo1;
+  font-weight: 700;
+}
+
+#alineacionprecios { position:absolute; z-index:1; }
