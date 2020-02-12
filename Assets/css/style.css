@@ -80,6 +80,13 @@
   margin-left: 50px;
 }
 
+.letramenu {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  margin-top: 25px;
+}
+
 .espacios {
   margin-top: 30px;
   margin-left: -90PX;
@@ -117,7 +124,6 @@ h3 {
 }
 
 .btn-primary1 {
-  background-color: #2ab7ca;
   border-radius: 0;
   border: 0;
   width: 30px;
@@ -126,6 +132,7 @@ h3 {
 
 .btn1 {
   width: 100px;
+  align-content: flex-end;
 }
 
 .flex-container {
@@ -186,6 +193,7 @@ h3 {
 
 .subir {
   margin-top: -850px;
+  align-content: left;
 }
 
 .margenpre {
@@ -194,6 +202,32 @@ h3 {
 
 .col {
   font-size: 14px;
+}
+
+.slidein {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  -webkit-box-shadow: 0px 0px 20px 0px #408794;
+  -moz-box-shadow: 0px 0px 20px 0px #408794;
+  box-shadow: 0px 0px 20px 0px #408794;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.rotate :hover {
+  -webkit-transform: rotateZ -30deg;
+  -ms-transform: rotateZ -30deg;
+  transform: rotateZ -30deg;
 }
 
 /*# sourceMappingURL=style.css.map */
