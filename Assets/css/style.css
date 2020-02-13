@@ -87,15 +87,8 @@
   margin-top: 25px;
 }
 
-.espacios {
-  margin-top: 30px;
-  margin-left: -90PX;
-  font-size: 17px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.alineacion {
-  display: inline-block;
+.correr {
+  padding-left: 100px;
 }
 
 .colorfooter {
@@ -166,11 +159,6 @@ h4 {
   color: #fff;
 }
 
-h3 {
-  margin-right: 30px;
-  margin-top: -35px;
-}
-
 .nav-link {
   margin-top: 35px;
 }
@@ -186,7 +174,7 @@ h3 {
 .anchocupon {
   width: 50%;
   align-content: center;
-  padding: 30px;
+  padding: 20px;
   margin: auto;
   border: 20px;
 }
@@ -200,34 +188,32 @@ h3 {
   margin-left: 600px;
 }
 
-.col {
-  font-size: 14px;
-}
-
 .slidein {
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: slidein;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
-  -webkit-box-shadow: 0px 0px 20px 0px #408794;
-  -moz-box-shadow: 0px 0px 20px 0px #408794;
-  box-shadow: 0px 0px 20px 0px #408794;
+  animation-iteration-count: 1;
 }
 
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 100%;
+    margin-left: 10%;
+    width: 50%;
   }
   to {
     margin-left: 0%;
-    width: 100%;
+    width: 50%;
   }
 }
-.rotate :hover {
-  -webkit-transform: rotateZ -30deg;
-  -ms-transform: rotateZ -30deg;
-  transform: rotateZ -30deg;
+.grafico {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.grafico:hover {
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
