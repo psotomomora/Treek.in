@@ -2,7 +2,6 @@
   animation-duration: 1s;
   animation-name: slidein;
   animation-iteration-count: 1;
-
 }
 
 @keyframes slidein {
@@ -17,14 +16,15 @@
  }
 }
 
+
 .grafico {
-  width: 100px;
-  height: 100px;
-  background: red;
+  width: 350px;
+  height: 200px;
   transition-property: width;
   transition-duration: 2s;
+  align-content: center;
 }
 
 .grafico:hover {
-  width: 300px;
+  width: 500px;
 }

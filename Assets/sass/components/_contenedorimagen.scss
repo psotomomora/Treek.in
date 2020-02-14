@@ -35,6 +35,7 @@
   margin: auto;
   padding: auto;
   margin-left: 20px;
+  justify-content: center;
 }
 
 h4 {
@@ -42,11 +43,12 @@ h4 {
   font-family: $tipo1;
   font-weight: 700;
   margin-bottom: 15px;
+  justify-content: center;
 }
 
 
 .flex-container-hijo {
-  width: 350px;
+  width: 450px;
 }
 
 .containerfooter {
@@ -68,18 +70,36 @@ h4 {
 }
 
 .anchocupon {
-  width: 50%;
+  width: 60%;
   align-content: center;
-  padding: 20px;
+  padding: 18px;
   margin: auto;
-  border: 20px;
+  border: 30px;
 
 }
 
-.subir {
-  margin-top: -850px;
-  align-content: left;
-}
 .margenpre {
   margin-left: 600px;
+}
+
+.centernav {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.imagena {
+  height: 800px;
+background-image: url(file:///C:/Users/paola%20y%20pia/Desktop/Startup%20Treek-in/Assets/img/bg-hero.svg);
+background-repeat: no-repeat;
+margin-top: -275px;
+background-position: right top;
+}
+
+.imagenb {
+  height: 1000px;
+background-image: url(file:///C:/Users/paola%20y%20pia/Desktop/Startup%20Treek-in/Assets/img/bg-price.svg);
+background-repeat: no-repeat;
+margin-top: -800px;
+margin-bottom: -108px;
+background-position: right top;
 }
