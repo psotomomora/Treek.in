@@ -57,7 +57,7 @@ font-family: $tipo2;
   text-align: center;
   align-content: center;
   align-items: center;
-  color: #fff;
+  color: $colorblanco;
   font-size: 40px;
   font-family: $tipo1;
   font-weight: 700;
@@ -83,6 +83,6 @@ font-family: $tipo2;
 .letramenu {
   font-size: 14px;
   font-family: $tipo2;
-  color: #000000;
+  color: $colorletrasmenu;
   margin-top: 25px;
 }
